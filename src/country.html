@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="country.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <title>Country</title>
+</head>
+
+<body class="dark">
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="title"><a href="/">Where in the world?</a></h2>
+        </div>
+    </header>
+    <main class="main">
+      <div class="country-details-container">
+        <span class="back-btn" onclick="history.back()">
+            <i class="fa-solid fa-arrow-left">&nbsp;</i>
+            Back
+        </span>
+            <div class="country-details">
+                <img src="" alt="">
+                <div class="details-text-container">
+                    <h1>Icelands</h1>
+                    <div class="details-text">
+                        <span><b>Native name: </b><span class="native-name"></span></span>
+                        <span><b>Population: </b><span class="population"></span></span>
+                        <span><b>Region: </b><span class="region"></span></span>
+                        <span><b>Sub Region: </b><span class="sub-region"></span></span>
+                        <span><b>Capital: </b><span class="capital"></span></span>
+                        <span><b>Top level domain: </b><span class="top-level-domain"></span></span>
+                        <span><b>Currency: </b><span class="currency"></span></span>
+                        <span><b>Language: </b><span class="language"></span></span>
+                         <div class="border-countries">
+                            <b class="border-tag">Border boundries:</b>&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="country.js"></script>
+</body>
+</html>
