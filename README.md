@@ -1,3 +1,3 @@
 ## Country app
 
-## HTML5 CSS JAVASCRIPT API
+## HTML5 CSS JAVASCRIPT API Integration
