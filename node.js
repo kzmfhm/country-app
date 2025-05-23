@@ -3,7 +3,6 @@ const filterByRegion = document.querySelector(".filter-region");
 const searchInput = document.querySelector(".search-container input");
 
 let allCountriesData;
-
 fetch("https://restcountries.com/v3.1/all")
   .then((res) => res.json())
   .then((data) => {
@@ -19,7 +18,6 @@ filterByRegion.addEventListener("change", (e) => {
 
 function renderCountries(data) {
   countryContainer.innerHTML = "";
-
   data.forEach((country) => {
     const countryCard = document.createElement("a");
     countryCard.classList.add("country-card");
