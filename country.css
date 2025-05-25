@@ -19,7 +19,6 @@ body {
     margin: auto;
 }
 
-
 .country-details {
     display: flex;
     flex-wrap: wrap;
@@ -37,8 +36,6 @@ body {
     border-radius: 6px;
 }
 
-
-
 .details-text-container {
     flex: 1;
     min-width: 280px;
@@ -50,7 +47,6 @@ body {
     grid-template-columns: 1fr;
     gap: 12px;
 }
-
 
 .border-countries {
 
@@ -66,7 +62,7 @@ body {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Responsive Styles --- */
+
 @media (max-width: 768px) {
     .country-details {
         flex-direction: column;
